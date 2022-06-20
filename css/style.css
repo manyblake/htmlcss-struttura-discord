@@ -88,6 +88,55 @@ nav {
     flex-basis: 100%;
 }
 
+footer {
+    background-color: #23272a;
+    padding: 5px 0 20px;
+}
+
+.footer__big {
+    padding: 0 0 50px;
+    border-bottom: 1px solid grey;
+}
+
+.footer__small {
+    padding: 50px 0 0;
+}
+
+.footer__card2su6 {
+    background-color: #f08080;
+    border: 1px dashed black;
+    flex-basis: 33%;
+    height: 575px;
+}
+
+.footer__card1su6 {
+    background-color: #20b2aa;
+    border: 1px dashed white;
+    flex-grow: 1;
+}
+
+.footer__bar {
+    background-color: #7fffd4;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo {
+    background-color: #ffb6c1;
+    border: 1px dashed black;
+    padding: 10px;
+}
+
+.footer__button {
+    background-color: #ffb6c1;
+    border: 1px dashed black;
+    padding: 10px;
+}
+
+
+
 
 
 

@@ -52,12 +52,15 @@ nav {
     margin: 0 auto;
 }
 
+.section {
+    padding: 100px 0;
+}
+
 .section--grey {
     background-color: #d3d3d3;
 }
 
 .card {
-    padding: 100px 0;
     display: flex;
 }
 
@@ -76,6 +79,13 @@ nav {
 
 .card--reverse {
     flex-direction: row-reverse;
+}
+
+.card__5su5 {
+    background-color: #228b22;
+    border: 1px dashed black;
+    height: 900px;
+    flex-basis: 100%;
 }
 
 

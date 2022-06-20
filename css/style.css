@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #add8e6;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #daa520;
+    border: 1px dashed black;
+    height: 40px;
+}

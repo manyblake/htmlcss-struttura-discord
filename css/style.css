@@ -1,3 +1,5 @@
+/* Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,10 +10,38 @@ ul, ol, menu {
     list-style: none;
 }
 
+/* Utilities */
+
+.section {
+    padding: 100px 0;
+}
+
+.section--grey {
+    background-color: #d3d3d3;
+}
+
+.card {
+    display: flex;
+}
+
+.card--reverse {
+    flex-direction: row-reverse;
+}
+
+.dashed {
+    border: 1px dashed black;
+}
+
+.dashed--white {
+    border: 1px dashed white;
+}
+
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 
 header {
     background-color: #add8e6;
@@ -20,7 +50,6 @@ header {
 
 nav {
     background-color: #daa520;
-    border: 1px dashed black;
     height: 40px;
     display: flex;
     justify-content: space-between;
@@ -47,43 +76,26 @@ nav {
 .hero__content {
     background-color: #ee82ee;
     width: 900px;
-    border: 1px dashed black;
     height: 400px;
     margin: 0 auto;
 }
 
-.section {
-    padding: 100px 0;
-}
-
-.section--grey {
-    background-color: #d3d3d3;
-}
-
-.card {
-    display: flex;
-}
+/* In attesa di ulteriori istruzioni sulla natura dei componenti,
+le cards sono state rinominate sulla base dello spazio che occupano */
 
 .card__3su5 {
     background-color: #1e90ff;
-    border: 1px dashed black;
     height: 500px;
     flex-basis: 60%;
 }
 
 .card__2su5 {
     background-color: #ffc0cb;
-    border: 1px dashed black;
     flex-grow: 1;
-}
-
-.card--reverse {
-    flex-direction: row-reverse;
 }
 
 .card__5su5 {
     background-color: #228b22;
-    border: 1px dashed black;
     height: 900px;
     flex-basis: 100%;
 }
@@ -104,7 +116,6 @@ footer {
 
 .footer__card2su6 {
     background-color: #f08080;
-    border: 1px dashed black;
     flex-basis: 33%;
     height: 575px;
 }
@@ -125,13 +136,11 @@ footer {
 
 .footer__logo {
     background-color: #ffb6c1;
-    border: 1px dashed black;
     padding: 10px;
 }
 
 .footer__button {
     background-color: #ffb6c1;
-    border: 1px dashed black;
     padding: 10px;
 }
 
